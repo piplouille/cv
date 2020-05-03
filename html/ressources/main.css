@@ -136,6 +136,16 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 
+.contact-form > form > div > label {
+    color: #cdcdcd;
+}
+
+.contact-form {
+    background-color: rgba(4,21,54,0.3);
+    border-radius: 5%;
+    padding-bottom: 2%;
+}
+
 @media all and (max-width:30em){
     a.menu{
         display:block;
