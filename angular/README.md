@@ -1,3 +1,6 @@
+# tuto
+https://angular.io/guide/router#import-crisis-center-module-into-the-appmodule-routes
+
 # Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.

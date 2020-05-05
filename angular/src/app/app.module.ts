@@ -4,19 +4,23 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { IntroductionComponent } from './introduction/introduction.component';
-import { ExperiencesComponent } from './experiences/experiences.component';
+import { ContactComponent } from './contact/contact.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { CvModule } from './cv/cv.module';
+import { CvRoutingModule } from './cv/cv-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    IntroductionComponent,
-    ExperiencesComponent
+    ContactComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CvModule,
+    CvRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
