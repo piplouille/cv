@@ -8,19 +8,21 @@ import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CvModule } from './cv/cv.module';
 import { CvRoutingModule } from './cv/cv-routing.module';
+import { TitleComponent } from './partials/title/title.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ContactComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    TitleComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     CvModule,
-    CvRoutingModule
+    CvRoutingModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
