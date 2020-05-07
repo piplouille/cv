@@ -29,6 +29,10 @@
             "scripts": []
           },
           "configurations": {
+            "fr": {
+              "localize": ["fr"],
+              "main": "src/main.fr.ts"
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -65,6 +69,9 @@
             "browserTarget": "angular:build"
           },
           "configurations": {
+            "fr": {
+              "browserTarget": "angular:build:fr"
+            },
             "production": {
               "browserTarget": "angular:build:production"
             }
