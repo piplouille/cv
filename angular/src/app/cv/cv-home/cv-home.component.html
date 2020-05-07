@@ -10,22 +10,22 @@
                         <a class="nav-link" routerLink="..">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="../cv/introduction">Introduction</a>
+                        <a class="nav-link" routerLinkActive="active" routerLink="../cv/introduction">Introduction</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="../cv/studies">Studies</a>
+                        <a class="nav-link" routerLinkActive="active" routerLink="../cv/studies">Studies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="../cv/experience">Experience</a>
+                        <a class="nav-link" routerLinkActive="active" routerLink="../cv/experience">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="../cv/skills">Skills</a>
+                        <a class="nav-link" routerLinkActive="active" routerLink="../cv/skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="../cv/services">Services</a>
+                        <a class="nav-link" routerLinkActive="active" routerLink="../cv/services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="../cv/portfolio">Portfolio</a>
+                        <a class="nav-link" routerLinkActive="active" routerLink="../cv/portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" routerLink="../contact">Contact me</a>
@@ -35,4 +35,10 @@
         </div>   
     </div>
 </div>
-<router-outlet></router-outlet>
+<div class="container partie-container">
+    <div class="row">
+        <div class="col" class="partie" style="width:100%;">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

@@ -9,6 +9,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { CvModule } from './cv/cv.module';
 import { CvRoutingModule } from './cv/cv-routing.module';
 import { TitleComponent } from './partials/title/title.component';
+import { registerLocaleData } from '@angular/common';
+import localeEn from '@angular/common/locales/en';
+
+registerLocaleData(localeEn, 'en-GB');
 
 @NgModule({
   declarations: [

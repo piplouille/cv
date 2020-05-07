@@ -136,6 +136,10 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 
+.partie-container {
+    max-width: 70%;
+}
+
 .contact-form > form > div > label {
     color: #cdcdcd;
 }
@@ -151,4 +155,12 @@ h1, h2, h3, h4, h5, h6 {
         display:block;
         margin:0.4em auto;
     }
+
+}
+
+@media all and (max-width:800px) {
+    .partie-container {
+        max-width:100%;
+    }
+    
 }
