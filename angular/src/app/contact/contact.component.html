@@ -9,25 +9,27 @@
     </div>
     <br>
     <div class="row justify-content-center">
-        <div class="col-5  contact-form">
+        <div class="col-5 contact-form">
             <h1 class="display-4" i18n="@@titleContact">Contact form</h1>
-            <form class="needs-validation" action="/index.html" novalidate>
+            <form #productForm = "ngForm" (ngSubmit)="processForm(productForm)" >
+                <input type="hidden" ngModel name="id">
+
                 <div class="form-group">
                     <label for="name" i18n="@@labelName">Name</label>
-                    <input class="form-control" type="text" placeholder="Enter name" id="name" required>
+                    <input #name="ngModel" ngModel class="form-control" type="text" placeholder="Enter name" id="name" name="name" required>
                 </div>
                 <div class="form-group">
                     <label for="email" i18n="@@labelEmail">Email address</label>
-                    <input class="form-control" type="email" placeholder="Enter email" id="mail" required>
+                    <input #mail="ngModel" ngModel class="form-control" type="email" placeholder="Enter email" id="mail" name="mail" required>
                     <div class="invalid-feedback" i18n="@@messageEmpty">Please fill out this field.</div>
                 </div>
                 <div class="form-group">
                     <label for="comment" i18n="@@labelMessage">Message :</label>
-                    <textarea class="form-control" rows="5" placeholder="Enter your message" id="comment" required></textarea>
+                    <textarea #message="ngModel" ngModel class="form-control" rows="5" placeholder="Enter your message" id="comment" name="message" required></textarea>
                     <div class="invalid-feedback" i18n="@@messageEmpty">Please fill out this field.</div>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-light" type="submit" i18n="@@buttonSend">Send</button>
+                    <button class="btn btn-light" type="submit" i18n="@@buttonSend" [disabled]="productForm.invalid">Send</button>
                 </div>
             </form>
         </div>

@@ -12,6 +12,8 @@ import { TitleComponent } from './partials/title/title.component';
 import { registerLocaleData } from '@angular/common';
 import localeFr from '@angular/common/locales/fr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 registerLocaleData(localeFr, 'fr-FR');
 
@@ -29,6 +31,8 @@ registerLocaleData(localeFr, 'fr-FR');
     CvRoutingModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
