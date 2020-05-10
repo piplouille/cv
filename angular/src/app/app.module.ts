@@ -11,6 +11,7 @@ import { CvRoutingModule } from './cv/cv-routing.module';
 import { TitleComponent } from './partials/title/title.component';
 import { registerLocaleData } from '@angular/common';
 import localeFr from '@angular/common/locales/fr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 registerLocaleData(localeFr, 'fr-FR');
 
@@ -27,6 +28,7 @@ registerLocaleData(localeFr, 'fr-FR');
     CvModule,
     CvRoutingModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,9 +1,9 @@
 <div class="container-fluid">
     <div class="row align-items-center">
-        <div class="col-md">
+        <div class="col-xl">
             <h1 class="display-1" style="display: block;">Laetitia Debesse</h1>
         </div>
-        <div class="col-md">
+        <div class="col-xl">
             <div class="degrade">
                 <ul class="nav nav-pills ml-auto justify-content-end" id="myMenu" role="tablist">
                     <li class="nav-item">
@@ -35,10 +35,8 @@
         </div>   
     </div>
 </div>
-<div class="container partie-container">
-    <div class="row">
-        <div class="col" class="partie" style="width:100%;">
-            <router-outlet></router-outlet>
-        </div>
-    </div>
+<div class="container-fluid" style="padding:0">
+<div [@routerAnimation]="getRouteAnimation(router)">
+        <router-outlet #router="outlet"></router-outlet>
+</div>
 </div>

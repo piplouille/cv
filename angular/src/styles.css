@@ -2,8 +2,9 @@ body {
     background-image: url("/assets/bg_light.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-
+    background-attachment: fixed;
     background-color: #090c12;
+    margin: 0;
 }
 
 .jumbotron {
@@ -128,7 +129,6 @@ h1 {
 }
 
 .partie {
-    min-height: 1vw;
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: rgba(255,255,255,0.6);
