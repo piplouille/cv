@@ -10,9 +10,9 @@ import { CvModule } from './cv/cv.module';
 import { CvRoutingModule } from './cv/cv-routing.module';
 import { TitleComponent } from './partials/title/title.component';
 import { registerLocaleData } from '@angular/common';
-import localeEn from '@angular/common/locales/en';
+import localeFr from '@angular/common/locales/fr';
 
-registerLocaleData(localeEn, 'en-GB');
+registerLocaleData(localeFr, 'fr-FR');
 
 @NgModule({
   declarations: [

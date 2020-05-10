@@ -155,6 +155,258 @@
           <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="buttonIntroduction" datatype="html">
+        <source>Introduction</source>
+        <target>Introduction</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-introduction/cv-introduction.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b38391a8ab9b50d70ea8a44aca6d82e556f7a117" datatype="html">
+        <source>4th year student of engineering at ENSTA Paris</source>
+        <target>Etudiante en deuxième année à l'ENSTA Paris (équivalent M1)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-introduction/cv-introduction.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">description intro</note>
+      </trans-unit>
+      <trans-unit id="a49a2eec2020f36511e44d1cf228e22b1ddf8580" datatype="html">
+        <source>Consulting service</source>
+        <target>Consultante</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-experience/cv-experience.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">name xp</note>
+      </trans-unit>
+      <trans-unit id="627262ee04faf581f172cd58dfe8e9828013a9a9" datatype="html">
+        <source>Developed a responsive website for the company Vedecom TECH</source>
+        <target>Création d'un site internet responsive pour Vedecom TECH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-experience/cv-experience.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">description xp</note>
+      </trans-unit>
+      <trans-unit id="1b4d82b7b480a51574acbe5ec08d94e886b98946" datatype="html">
+        <source>Work experience</source>
+        <target>Stage en entreprise</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-experience/cv-experience.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">name xp</note>
+      </trans-unit>
+      <trans-unit id="c201a363e34e1bde353d880c781a23468966b611" datatype="html">
+        <source>Worked on the production line and learnt the processes for making cars</source>
+        <target>Travail sur la chaîne de production et apprentissage des étapes d'assemblage des voitures</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-experience/cv-experience.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">description xp</note>
+      </trans-unit>
+      <trans-unit id="7348d83e0d5fabb7772d85e9d80a08ff3795c43f" datatype="html">
+        <source>Observation period</source>
+        <target>Stage d'observation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-experience/cv-experience.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">name xp</note>
+      </trans-unit>
+      <trans-unit id="068e02ee8ad0c5c2d48928bcc79669ca0999a358" datatype="html">
+        <source>Discovered a multinational company and its different fields</source>
+        <target>Découverte du fonctionnement et des différents domaine d'une entreprise multinationale</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-experience/cv-experience.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">description xp</note>
+      </trans-unit>
+      <trans-unit id="376070fbe784a9c37aee83ec4b48407d93b33948" datatype="html">
+        <source>1st year of the MSc. in Engineering programme</source>
+        <target>Deuxième année du cursus ingénieur (équivalent M1)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-studies/cv-studies.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">name studies</note>
+      </trans-unit>
+      <trans-unit id="1068020792359f769966209ec4d32c399b79d5c9" datatype="html">
+        <source>2019-2020 : Major in Information and Communication Sciences and Technology<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        C++, Database, Network, Operating System, Project management, Web development<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        2018-2019 : core scientific courses<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Mathematics, Mechanics, Computer Sciences<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        </source>
+                <target>2019-2020 : Majeur Sciences et Technologies de l'Information et de la Communication<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        C++, Bases de données, Réseaux, Automatisation, Gestion de projet, Développement web<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        2018-2019 : tronc commun scientifique<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Mathematics, Mechanics, Computer Sciences<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-studies/cv-studies.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">description studies</note>
+      </trans-unit>
+      <trans-unit id="2cd026fad623fabdf7c066630b24b3aec6ff7901" datatype="html">
+        <source>Two-year of intensive preparation for nationwide exams to top engineer-ing school</source>
+        <target>Classe préparatoire aux Grandes Ecoles d'ingénieur</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-studies/cv-studies.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">name studies</note>
+      </trans-unit>
+      <trans-unit id="7ad065a5d9cbb3594d45e1909d403715e7b43f46" datatype="html">
+        <source>Courses of Mathematics (algebra, mathematical analysis, probability), Physics (electronics, optics, mechanics, thermodynamics), Chemistry, Engineering, Computer sciences (Python, SQL), Philosophy, English, Spanish</source>
+        <target>MPSI puis PSI (cours de mathématiques, physique, sciences de l'ingénieur)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-studies/cv-studies.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">description studies</note>
+      </trans-unit>
+      <trans-unit id="80593b9b947b79646a5ca01f3755675d168c4188" datatype="html">
+        <source>A-level with highest honour</source>
+        <target>Baccalauréat, mention très bien</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-studies/cv-studies.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description">name studies</note>
+      </trans-unit>
+      <trans-unit id="30eb185a83aff728e88e31fbd13a800d05b95b7d" datatype="html">
+        <source>Physics, Biology and specialisation in Mathematics<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Spanish european section and latin</source>
+        <target>Filière Scientifique : physique, biologie et spécialité mathématiques</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-studies/cv-studies.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">description studies</note>
+      </trans-unit>
+      <trans-unit id="a82d78d2b0ab3406888cd5e4a9af533c16807da3" datatype="html">
+        <source>Languages</source>
+        <target>Langues</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-skills/cv-skills.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">title skills</note>
+      </trans-unit>
+      <trans-unit id="8293a584b57b870aca184a23bb8039c829acc4cf" datatype="html">
+        <source>French</source>
+        <target>Français</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-skills/cv-skills.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">name skills</note>
+      </trans-unit>
+      <trans-unit id="4493803e78b431041e08279d3e5c25083a70c95b" datatype="html">
+        <source>Mothertongue</source>
+         <target>Langue maternelle</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-skills/cv-skills.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">description skills</note>
+      </trans-unit>
+      <trans-unit id="a0843de0a64adcc7ee6a946408b6876cd8abdcae" datatype="html">
+        <source>English</source>
+         <target>Anglais</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-skills/cv-skills.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">name skills</note>
+      </trans-unit>
+      <trans-unit id="723e4c5a903b979a6e181d15c8c003704fe5fa25" datatype="html">
+        <source>Fluent<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Toeic in 2020 (985)</source>
+        <target>Courant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-skills/cv-skills.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">description skills</note>
+      </trans-unit>
+      <trans-unit id="1b2fa65763b744291e832a3c5fa0ce8641da2911" datatype="html">
+        <source>Spanish</source>
+         <target>Espagnol</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-skills/cv-skills.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">name skills</note>
+      </trans-unit>
+      <trans-unit id="bc2e854e111ecf2bd7db170da5e3c2ed08181d88" datatype="html">
+        <source>Advanced</source>
+         <target>Niveau avancé</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-skills/cv-skills.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">description skills</note>
+      </trans-unit>
+      <trans-unit id="c08a4b87e44d03394fec0cfdc8043bb0a2b2ec3a" datatype="html">
+        <source>Chinese</source>
+         <target>Chinois</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-skills/cv-skills.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">name skills</note>
+      </trans-unit>
+      <trans-unit id="dc54e412f05328be9bf3262c8072c0d22409b398" datatype="html">
+        <source>Beginner</source>
+         <target>Débutant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-skills/cv-skills.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">description skills</note>
+      </trans-unit>
+      <trans-unit id="5428274849067c7db69f8f66630c0bfc3692e7d5" datatype="html">
+        <source>Programming</source>
+         <target>Programmation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-skills/cv-skills.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description">title skills</note>
+      </trans-unit>
+      <trans-unit id="3cfe31d3f7d3a8248b1f9bdb855afdbdb65c5caf" datatype="html">
+        <source>I can create for you your own online cv !</source>
+        <target>Je peux créer pour vous votre propre cv en ligne</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-services/cv-services.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">description service</note>
+      </trans-unit>
+      <trans-unit id="4c3384e8337c3a5f0c1f73337eacb8a22962d16f" datatype="html">
+        <source>Website for the compagny Vedecom TECH</source>
+        <target>Site pour l'entreprise Vedecom TECH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-portfolio/cv-portfolio.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">title Portfolio</note>
+      </trans-unit>
+      <trans-unit id="347259bcba3f71308d83e70430c551b5add92132" datatype="html">
+        <source>Responsive WordPress : <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>WordPress responsive : <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cv/cv-portfolio/cv-portfolio.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">description Portfolio</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
