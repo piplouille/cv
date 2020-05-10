@@ -154,11 +154,20 @@ h1 {
 .place {
     color: #3b3b3b;
     font-style: italic;
+    font-weight: bold;
 }
 
 .period {
     font-style: italic;
     color: #3b3b3b;
+}
+
+.name-skill {
+    font-weight: 600;
+}
+
+.little-space {
+    line-height: 40px;
 }
 
 @media all and (max-width:30em){
